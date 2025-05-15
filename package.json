@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/iheanyi11/cse341-node#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "mongodb": "^6.16.0"
   },
