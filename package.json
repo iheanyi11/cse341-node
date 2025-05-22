@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/iheanyi11/cse341-node#readme",
   "dependencies": {
+    "body-parser": "^2.2.0",
     "cli-table3": "^0.6.5",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
@@ -28,6 +29,12 @@
     "mongoose": "^8.14.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "globals": "^16.1.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
   }
 }
