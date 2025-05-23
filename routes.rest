@@ -32,6 +32,42 @@ content-type: application/json
 ### Delete a contact by ID
 DELETE http://localhost:3000/contacts/682f4dd58fd0f16a231fa9de HTTP/1.1 
 
+
+
+
+
 // Remote Host
 ### Get all contacts
+GET https://cse341-node-29ji.onrender.com/contacts
+
+### Get a contact by ID
+GET https://cse341-node-29ji.onrender.com/contacts/68274539c1aedbaf4cde61de
+
+### Create a new contact
+POST https://cse341-node-29ji.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Abimbola",
+    "lastName": "Osaloto",
+    "email": "vanbims@gmail.com",
+    "favoriteColor": "Pink",
+    "birthday": "30/11/2005"
+}
+
+### Update a contact by ID
+PUT https://cse341-node-29ji.onrender.com/contacts/68274047c1aedbaf4cde61db HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Collins",
+    "lastName": "Okolie",
+    "email": "lynncol@gmail.com",
+    "favoriteColor": "Blue",
+    "birthday": "30/03/2005"
+}
+
+### Delete a contact by ID
+DELETE https://cse341-node-29ji.onrender.com/contacts/682f5f0fe264ffe64a39fa9d HTTP/1.1
+
 
